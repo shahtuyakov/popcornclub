@@ -1,0 +1,43 @@
+.user {
+  flex: 0 1 10rem;
+  margin-right: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 400px */
+@media only screen and (max-width: 25em) {
+  .user {
+    flex: 0 1 3.5rem;
+  }
+}
+
+.user-btn {
+  border: 1.3px solid #b09760;
+  padding: 0.7rem 1rem;
+  border-radius: 1rem;
+  background-color: #1d1911;
+  font-size: 1.4rem;
+  color: #b09760;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 400px */
+@media only screen and (max-width: 25em) {
+  .user-btn {
+    font-size: 1.3rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
+
+.user-btn:hover {
+  background-color: #b09760;
+  color: #1d1911;
+  font-weight: 700;
+}

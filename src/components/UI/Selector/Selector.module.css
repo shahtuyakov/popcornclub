@@ -1,0 +1,60 @@
+.item-link {
+  text-decoration: none;
+  padding: 1.2rem 1.8rem;
+  color: inherit;
+  transition: all 0.3s;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .item-link {
+    padding: 1.2rem 1.5rem;
+  }
+}
+
+.item-link:hover {
+  background-color: #555555;
+  color: #edb01d;
+}
+
+.check-icon {
+  font-size: 1.3rem;
+  color: inherit;
+}
+
+.subitems {
+  list-style: none;
+  padding: 0.7rem 0;
+  border-top: 0.1px solid #dec7a183;
+  border-bottom: 0.1px solid #dec7a183;
+}
+
+.subitem-link {
+  text-decoration: none;
+  padding: 1rem 1.8rem 1rem 2.2rem;
+  font-size: 1.2rem;
+  color: inherit;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subitem-link:hover {
+  background-color: #555555;
+  color: #edb01d;
+}
+
+.subCheck-icon {
+  font-size: 1rem;
+  color: #edb01d;
+}
+
+.selected {
+  background-color: #555555;
+  color: #edb01d;
+}

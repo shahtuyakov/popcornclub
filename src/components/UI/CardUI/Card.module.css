@@ -1,0 +1,171 @@
+.img {
+  flex: 0 0 25rem;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .img {
+    flex: 0 0 23.5rem;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .img {
+    flex: 0 0 22rem;
+  }
+}
+
+.grid-img {
+  flex: 0 0 25rem;
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .grid-img {
+    flex: 1;
+  }
+}
+
+.seasons-img {
+  flex: 0 0 20rem;
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .seasons-img {
+    flex: 0 0 15rem;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .seasons-img {
+    flex: 0 0 16rem;
+  }
+}
+
+.poster {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* set placeholder */
+  background-color: #1d1911;
+}
+
+.grid-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border: 1px solid #edb01d;
+  border-radius: 5px;
+  z-index: 10;
+  transition: all 0.5s;
+}
+
+.img:hover .cover {
+  display: block;
+}
+
+.cover-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background: none;
+  border: 1.8px solid #ccc;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-btn:hover {
+  border: 1.8px solid #edb01d;
+  background: #edb01d;
+}
+
+.cover-icon {
+  color: #ccc;
+  font-size: 3.5rem;
+  transition: all 0.5s;
+}
+
+.cover-btn:hover .cover-icon {
+  color: #292929;
+}
+
+.title:link,
+.title:visited {
+  flex: 0 0 1.7rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #dec7a1;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+  padding-top: 1.2rem;
+  transition: all 0.5s;
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .title:link,
+  .title:visited {
+    font-size: 1.2rem;
+  }
+}
+
+.title:hover,
+.title:active {
+  text-decoration: underline;
+}
+
+.grid-title {
+  flex: 0 0 1.7rem;
+}
+
+.dateseason {
+  flex: 0 0 2rem;
+  display: block;
+  padding-left: 0.3rem;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #dec7a1;
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .dateseason {
+    font-size: 1.1rem;
+  }
+}
+
+.grid-dateseason {
+  flex: 0 0 2rem;
+}
+
+.episode {
+  color: #dec7a18f;
+}

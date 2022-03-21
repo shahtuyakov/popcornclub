@@ -1,0 +1,41 @@
+.seasons {
+  padding-bottom: 7rem;
+  overflow-y: scroll;
+}
+
+.episodes {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #dec7a1;
+  padding-left: 3.8rem;
+  margin-bottom: 1rem;
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .episodes {
+    font-size: 1.3rem;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .episodes {
+    padding-left: 2rem;
+  }
+}
+
+.no-episodes,
+.error {
+  padding-left: 3.8rem;
+  font-size: 1.5rem;
+  color: #dec7a18f;
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .no-episodes,
+  .error {
+    padding-left: 2rem;
+  }
+}

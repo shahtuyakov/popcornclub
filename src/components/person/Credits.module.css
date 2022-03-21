@@ -1,0 +1,25 @@
+.credits {
+  color: #dec7a1;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  padding-left: 3.8rem;
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .title {
+    font-size: 1.3rem;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 28.125em) {
+  .title {
+    padding-left: 2rem;
+  }
+}

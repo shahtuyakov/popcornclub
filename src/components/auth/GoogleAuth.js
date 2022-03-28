@@ -7,6 +7,7 @@ const GoogleAuth = ({ isSignedIn, signIn, signOut }) => {
   const [auth, setAuth] = useState(null);
 
   const CLIENT_ID = process.env.REACT_APP_GoogleAuth_ClientID;
+  
 
   useEffect(() => {
     window.gapi.load('client:auth2', () => {
